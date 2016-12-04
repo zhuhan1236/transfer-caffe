@@ -598,10 +598,10 @@ layer {
   include: { phase: TRAIN }
 }
 layer {
-  name: "entropy_grl"
+  name: "entropy_scaler"
   type: "GradientScaler"
   bottom: "target_softmax"
-  top: "entropy_grl"
+  top: "entropy_scaler"
   gradient_scaler_param {
     lower_bound: 0.0
     upper_bound: 1.0
@@ -613,7 +613,7 @@ layer {
 layer {
   name: "entropy_loss"
   type: "EntropyLoss"
-  bottom: "entropy_grl"
+  bottom: "entropy_scaler"
   bottom: "target_label"
   top: "entropy_loss"
   loss_weight: -0.1
