@@ -751,7 +751,7 @@ message FlattenParameter {
 
 message GradientScalerParameter {
   // GradientScalerLayer scales deltas according to the schedule:
-  // 2 * height / (1 + exp(-alpha * (iter / max_iter))) - upper_bound ,
+  // 2 * height / (1 + exp(-alpha * (iter / max_iter))) - height + lower_bound,
   // where height = upper_bound - lower_bound
   optional float lower_bound = 1 [default = 0.0];
   optional float upper_bound = 2 [default = 1.0];
