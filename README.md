@@ -43,3 +43,21 @@ Citation
       biburl    = {http://dblp2.uni-trier.de/rec/bib/conf/icml/LongC0J15},
       bibsource = {dblp computer science bibliography, http://dblp.org}
     }
+    
+    @inproceedings{DBLP:conf/nips/LongZ0J16,
+      author    = {Mingsheng Long and
+                   Han Zhu and
+                   Jianmin Wang and
+                   Michael I. Jordan},
+      title     = {Unsupervised Domain Adaptation with Residual Transfer Networks},
+      booktitle = {Advances in Neural Information Processing Systems 29: Annual Conference
+                   on Neural Information Processing Systems 2016, December 5-10, 2016,
+                   Barcelona, Spain},
+      pages     = {136--144},
+      year      = {2016},
+      crossref  = {DBLP:conf/nips/2016},
+      url       = {http://papers.nips.cc/paper/6110-unsupervised-domain-adaptation-with-residual-transfer-networks},
+      timestamp = {Fri, 16 Dec 2016 19:45:58 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/nips/LongZ0J16},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
