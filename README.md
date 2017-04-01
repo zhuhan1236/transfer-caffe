@@ -1,3 +1,6 @@
+# DEPRECATED
+This repository is deprecated, please move to [transfer-caffe](https://github.com/thuml/transfer-caffe)
+
 # transfer-caffe
 
 This is a caffe repository for transfer learning. We fork the repository with version ID `29cdee7` from [Caffe](https://github.com/BVLC/caffe) and make our modifications. The main modifications are listed as follow:
